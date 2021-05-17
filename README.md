@@ -8,7 +8,7 @@ Sample Django re-usable authentication using djoser for authentication, drf-yasg
 docker-compose up --build
 ```
 
-```
+
 
 ### [Development Environment] Execute Django commands
 ```
