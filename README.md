@@ -1,5 +1,5 @@
 # foxy
-Sample Django re-usable authentication using djoser for authentication, drf-yasg for documentation and finally containerized using docker
+Sample Django re-usable authentication using djoser for authentication where authenticated users can post news, drf-yasg for documentation and finally containerized using docker
 
 # boomfront-be
 
