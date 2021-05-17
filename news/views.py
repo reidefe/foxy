@@ -16,8 +16,7 @@ class NewsViewSet(ModelViewSet):
     queryset = NewsModel.objects.all()
     permission_classes = (IsAuthenticatedOrReadOnly,)
 
-    def perform_create(self, serializer):
-        serializer.save(owner=self.request.user)
+   
 
 
 class UserProfileListCreateView(ListCreateAPIView):
